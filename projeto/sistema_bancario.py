@@ -21,7 +21,7 @@ while True:
             print('Não é permitido valor negativo')
         else:
             saldo += valor_deposito
-            extrato = extrato + f'Depósito de R${valor_deposito:.2f}\n'
+            extrato += f'Depósito de R${valor_deposito:.2f}\n'
 
     elif opcao == '2':
         valor_saque = float(input("Digite o valor que deseja sacar: "))
