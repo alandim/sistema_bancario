@@ -31,6 +31,8 @@ while True:
             print("Alcançado o limite de saques permitidos. MAX: 3")
         elif valor_saque > saldo:
             print("Saldo insuficiente")
+        elif valor_saque < 0:
+            print("Não é permitido valor negativo")
         else:
             saldo -= valor_saque
             quantidade_saques += 1
